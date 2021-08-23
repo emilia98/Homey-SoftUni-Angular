@@ -1,0 +1,21 @@
+<div class="container" id="map">
+    <div class="form-group">
+      <input type="text" class="form-control" (keydown.enter)="$event.preventDefault()" placeholder="Search Nearest Location" autocorrect="off" autocapitalize="off" spellcheck="off" type="text" #search>
+    </div>
+  
+   <div id="gm-container">
+    <agm-map [latitude]="latitude" [longitude]="longitude" [zoom]="zoom">
+        <agm-marker [latitude]="latitude" [longitude]="longitude" [markerDraggable]="false"></agm-marker>
+      </agm-map>
+   </div>
+  
+    <div class="show-address row">
+        <div class="col-md-6">
+            <p><span class="address-title">Address:</span> {{address}}</p>
+        </div>
+        <div class="col-md-6">
+            <p><span class="address-title">Latitude:</span> {{latitude}}</p>
+            <p><span class="address-title">Longitude:</span> {{longitude}}</p>
+        </div>
+    </div>
+  </div>
