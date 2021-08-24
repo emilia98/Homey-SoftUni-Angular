@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="title">
+        <h2 class="text-center">Add New Property</h2>
+    </div>
+    <div>
+        <div class="step-title">
+            <div class="text-center">
+                <div class="step"><span>1</span></div>Add the main information about the property you are listing
+            </div>
+        </div>
+        <div class="row fields">
+            <div class="col-md-6 field">
+                <app-floating-label-input name="Bedrooms" labelText="Bedrooms" placeholder="Bedrooms" id="bedrooms"
+                    type="number"></app-floating-label-input>
+            </div>
+            <div class="col-md-6 field">
+                <app-floating-label-input name="Bathrooms" labelText="Bathrooms" placeholder="Bathrooms" id="bathrooms"
+                    type="text"></app-floating-label-input>
+            </div>
+            <div class="col-md-6 field">
+                <app-floating-label-input name="area" labelText="Area (m2)" placeholder="Area (m2)" id="area"
+                    type="text"></app-floating-label-input>
+            </div>
+            <div class="col-md-6 field">
+                <app-floating-label-input name="price" labelText="Price/month" placeholder="Price/month" id="price"
+                    type="text"></app-floating-label-input>
+            </div>
+        </div>
+    </div>
+    <hr class="splitter">
+    <div>
+        <div class="step-title">
+            <div class="text-center">
+                <div class="step"><span>2</span></div>
+                Select the location of the property
+            </div>
+        </div>
+        <div>
+            <app-search-map></app-search-map>
+        </div>
+    </div>
+    <hr class="splitter">
+    <div>
+        <div class="step-title">
+            <div class="text-center">
+                <div class="step"><span>3</span></div>
+                Enter additional description here
+            </div>
+        </div>
+        <div class="description">
+            <textarea placeholder="Additional description"></textarea>
+        </div>
+    </div>
+</div>

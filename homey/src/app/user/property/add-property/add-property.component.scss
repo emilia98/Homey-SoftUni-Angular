@@ -1,0 +1,53 @@
+.title {
+    margin-top: 30px;
+}
+
+div.step {
+    height: 35px;
+    width: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border-radius: 50%;
+    font-size: 1.125rem;
+    background: #0da2ff;
+    color: white;
+    font-weight: 600;
+}
+
+.step-title {
+    font-size: 1.125rem;
+    color: black;
+    font-weight: 200;
+    margin: 25px 0;
+}
+
+.splitter {
+    margin: 5px 0;
+    border: 0.5px solid #fafafa;
+}
+
+.fields {
+    padding: 10px 20px;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    border-color: #bebebe;
+    border-width: 1px;
+    border-radius: 5px;
+    resize: none;
+    overflow: auto;
+    padding: 10px;
+}
+
+.description {
+    width: 80%;
+    margin: 10px auto;
+}

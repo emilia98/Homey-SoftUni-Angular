@@ -5,6 +5,8 @@ import { UserHeaderComponent } from './core/user-header/user-header.component';
 import { UserFooterComponent } from './core/user-footer/user-footer.component';
 import { UserProfileComponent } from './user-profile/user-profile.component';
 import { UserRoutingModule } from './user-routing.module';
+import { SharedModule } from '../shared/shared.module';
+import { PropertyModule } from './property/property.module';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { UserRoutingModule } from './user-routing.module';
   ],
   imports: [
     CommonModule,
-    UserRoutingModule
+    UserRoutingModule,
+    SharedModule,
+    PropertyModule,
   ]
 })
 export class UserModule { }

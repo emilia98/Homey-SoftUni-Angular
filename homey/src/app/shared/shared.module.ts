@@ -3,10 +3,12 @@ import { CommonModule } from '@angular/common';
 import { SearchMapComponent } from './search-map/search-map.component';
 import { AgmCoreModule } from '@agm/core';
 import { environment } from 'src/environments/environment';
+import { FloatingLabelInputComponent } from './floating-label-input/floating-label-input.component';
 
 @NgModule({
   declarations: [
-    SearchMapComponent
+    SearchMapComponent,
+    FloatingLabelInputComponent
   ],
   imports: [
     CommonModule,
@@ -16,7 +18,8 @@ import { environment } from 'src/environments/environment';
     })
   ],
   exports: [
-    SearchMapComponent
+    SearchMapComponent,
+    FloatingLabelInputComponent
   ]
 })
 export class SharedModule { }
