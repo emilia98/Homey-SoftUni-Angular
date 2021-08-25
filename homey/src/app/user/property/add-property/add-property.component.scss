@@ -51,3 +51,56 @@ textarea {
     width: 80%;
     margin: 10px auto;
 }
+
+.img_upload {
+    border-radius: 4px;
+    width: 90%;
+    margin: 0 auto;
+    height: 120px;
+    padding: 0px 20px;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.img_upload input {
+    display: inline-block;
+        width: 100%;
+        padding: 120px 0 0 0;
+        height: 100px;
+        overflow: hidden;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+        background: url('https://cdn1.iconfinder.com/data/icons/hawcons/32/698394-icon-130-cloud-upload-512.png') center center no-repeat #e4e4e4;
+      background-position: center;
+      background-size: 60px 60px;
+}
+
+.segmented-control-input {
+    width: 50%;
+    border: 1px solid #0da2ff;
+    text-align: center;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background: #0da2ff;
+    margin: 0;
+    padding: 5px;
+    font-size: 1.25rem;
+}
+
+.segmented-control-input label {
+    margin: 0
+}
+
+.segmented-control {
+    display: block;
+    width: 60%;
+    margin: 20px auto;
+    color: white;
+}
