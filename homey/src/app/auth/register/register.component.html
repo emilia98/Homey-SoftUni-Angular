@@ -1,1 +1,51 @@
-<p>register works!</p>
+<div class="container">
+    <div class="auth-container">
+        <div id="auth-form-view">
+            <div class="auth-img">
+                <img src="https://cdn.pixabay.com/photo/2017/05/02/15/34/city-2278497_960_720.jpg" alt="" />
+                <!--
+                    <img src="https://cdn.pixabay.com/photo/2017/03/19/01/43/living-room-2155376_1280.jpg" alt="" />
+                -->
+                
+            </div>
+            <div class="auth-container-form">
+                <div class="auth-form">
+                    <div class="title">
+                        <h2>Register</h2>
+                        <p>
+                            Welcome to Homey.
+                        </p>
+                    </div>
+                    <div class="form-auth">
+                        <form action="" class="log-in" autocomplete="off">
+                            <div class="floating-label">
+                                <input placeholder="Username" type="text" name="username" id="username" />
+                                <label for="username">Username:</label>
+                            </div>
+                            <div class="floating-label">
+                                <input placeholder="Email" type="text" name="email" id="email" />
+                                <label for="email">Email:</label>
+                            </div>
+                            <div class="floating-label">
+                                <input placeholder="Password" type="password" name="password" id="password" />
+                                <label for="password">Password:</label>
+                            </div>
+                            <div class="auth-button">
+                                <button type="submit">Register</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="auth">
+            <a routerLink="/auth/login">
+                <span class="arrow"><i class="fas fa-chevron-left"></i></span>
+                <span class="link-title">Login</span>
+            </a>
+        </div>
+    </div>
+    <div class="return" routerLink='/'>
+        <i class="fas fa-home"></i>
+    </div>
+</div>
