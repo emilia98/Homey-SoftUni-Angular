@@ -8,6 +8,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { UserModule } from './user/user.module';
 import { SharedModule } from './shared/shared.module';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { MDBBootstrapModule } from 'angular-bootstrap-md';
     UserModule,
     BrowserAnimationsModule,
     SharedModule,
-    MDBBootstrapModule.forRoot()
+    MDBBootstrapModule.forRoot(),
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
